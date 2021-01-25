@@ -13,4 +13,7 @@ Human = {
 }
 
 console.log(Human.complete())
+console.log(Human.complete())
+console.log(Human.complete())
+
 
