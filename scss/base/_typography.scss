@@ -1,17 +1,39 @@
-.heading{
-    color: black;
-    font-size: 2rem;
-    &--primary{
-        font-size: 5rem;
-        color: red;
-    }
-    &--secondary{
-        font-size: 3rem;
-        color: blue;
-    }
+.heading {
+  color: black;
+  font-size: 2rem;
+  &--primary {
+    font-size: 8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 128, 0, 0)),
+      url(../img/ankara.jpg);
+    -webkit-background-clip: text;
 
-    &--tertiary{
-        font-size: 2.2rem;
-        color: green;
+    background-clip: text;
+    color: transparent;
+    line-height: 1.1;
+  }
+  &--secondary {
+    font-size: 3rem;
+    color: blue;
+  }
+
+  &--tertiary {
+    font-size: 2.2rem;
+    color: $color-tertiary;
+  }
+  &--africa {
+    background-color: black;
+    padding: 0 3rem;
+    border-radius: 5px;
+    outline: 2px white solid;
+    outline-offset: 2px;
+    transition: 0.2s ease-in-out;
+    color: $color-primary;
+    font-size: 5rem;
+    &:hover {
+      outline-offset: 10px;
+      outline-width: 5px;
     }
+  }
 }
