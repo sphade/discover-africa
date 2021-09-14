@@ -1,0 +1,17 @@
+.heading{
+    color: black;
+    font-size: 2rem;
+    &--primary{
+        font-size: 5rem;
+        color: red;
+    }
+    &--secondary{
+        font-size: 3rem;
+        color: blue;
+    }
+
+    &--tertiary{
+        font-size: 2.2rem;
+        color: green;
+    }
+}
