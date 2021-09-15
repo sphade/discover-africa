@@ -1,0 +1,21 @@
+.btn{
+   
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    border: none;
+    font-size: $default-fs;
+    font-family: cursive;
+    text-transform: capitalize;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgb(77, 77, 77);
+    &--header{
+        padding: 10px 25px;
+        background-color: red;
+        margin-top: 5rem;
+    }
+    &:active{
+        box-shadow: 0px 2px 1px rgb(77, 77, 77);
+
+    }
+}
